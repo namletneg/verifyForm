@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <link rel="stylesheet" type="text/css" href="static/css/index.css">
+</head>
+<body>
+<div class="wrap-form">
+    <h1>表单认证</h1>
+    <form>
+        <dl>
+            <dt>用户名：</dt>
+            <dd>
+                <input class="wrtext" id="name" name="name" type="text">
+                <span><i class="icon-normal"></i>5-25字符，一个汉字2个字符</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>密码：</dt>
+            <dd>
+                <input class="wrtext" id="password" name="password" type="password">
+                <span><i class="icon-normal"></i>5-25字符，一个汉字2个字符</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>E-Mail：</dt>
+            <dd>
+                <input class="wrtext" id="e-mail" name="mail" type="text">
+                <span><i class="icon-normal"></i>5-25字符，一个汉字2个字符</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>&nbsp;</dt>
+            <dd><button id="submit" type="submit">提交</button></dd>
+            <!--<dd><input id="submit" type="button" value="提交"></dd>-->
+        </dl>
+    </form>
+</div>
+<script src="static/js/jquery-1.11.1.min.js"></script>
+<script src="static/js/forms.js"></script>
+</body>
+</html>

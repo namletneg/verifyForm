@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font: 14px/20px "Microsoft Yahei";
+}
+h1,dl,dt,dd{
+    margin: 0;
+}
+input[type=text],
+input[type=password]{
+    margin: 0;
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 3px;
+}
+.wrap-form{
+    margin: 50px auto 0;
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px rgba(0,0,0,.3);
+}
+.wrap-form h1{
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+.wrap-form dl{
+    padding: 10px 0 10px 20px;
+    *zoom: 1;
+}
+.wrap-form dl:before,
+.wrap-form dl:after{
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.wrap-form dl:after{
+    clear: both;
+}
+.wrap-form dl dt,
+.wrap-form dl dd{
+    float: left;
+}
+.wrap-form dl dt{
+    padding-right: 10px;
+    width: 70px;
+    text-align: right;
+}
+.wrtext{
+    width: 200px;
+}
+.wrap-form dl dd span{
+    display: none;
+    padding-left: 10px;
+}
+.red-font{
+    color: #f00;
+}
+.icon-normal,
+.icon-error,
+.icon-ok{
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    vertical-align: middle;
+    background: url("../img/icon.png") no-repeat;
+}
+.icon-error{
+    background-position: 0 -17px;
+}
+.icon-ok{
+    background-position: 0 -33px;
+}
