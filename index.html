@@ -8,25 +8,33 @@
 <body>
 <div class="wrap-form">
     <h1>表单认证</h1>
-    <form>
+    <form action="javascript:alert('OK')">
         <dl>
             <dt>用户名：</dt>
             <dd>
-                <input class="wrtext" id="name" name="name" type="text">
+                <input class="wrtext mustFill" id="name" name="name" type="text">
                 <span><i class="icon-normal"></i>5-25字符，一个汉字2个字符</span>
             </dd>
         </dl>
         <dl>
             <dt>密码：</dt>
             <dd>
-                <input class="wrtext" id="password" name="password" type="password">
+                <input class="wrtext mustFill" id="password" name="password" type="password">
                 <span><i class="icon-normal"></i>5-25字符，一个汉字2个字符</span>
             </dd>
         </dl>
         <dl>
             <dt>E-Mail：</dt>
             <dd>
-                <input class="wrtext" id="e-mail" name="mail" type="text">
+                <input class="wrtext mustFill" id="e-mail" name="mail" type="text">
+                <span><i class="icon-normal"></i>5-25字符，一个汉字2个字符</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>性别：</dt>
+            <dd>
+                <input class="mustFill fill" id="checkbox" name="mail" type="checkbox">
+                <label for="checkbox">name</label>
                 <span><i class="icon-normal"></i>5-25字符，一个汉字2个字符</span>
             </dd>
         </dl>
